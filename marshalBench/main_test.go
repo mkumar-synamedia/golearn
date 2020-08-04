@@ -7,6 +7,25 @@ import (
 	"testing"
 )
 
+type ldeAULocIdx struct {
+	// Allocation Unit Type / Magic
+	auType uint64
+	// Allocation Unit Checksum
+	auChecksum uint32
+	// Start Index of the local directory entry location
+	startIndex uint32
+	// Directory replica count
+	dirReplicaCount uint8
+	// Reserving 3 bytes for byte alignment
+	reserved1 [3]byte
+	// First unused offset
+	firstUnusedOffset uint32
+	// Reserving 8 bytes for byte alignment
+	reserved2 [8]byte
+	// Local Directory Entry AU Location Sets
+	//ldeAULocationSet [][]uint64
+}
+
 func BenchmarkHandMarshal(b *testing.B) {
 	l := ldeAULocIdx{}
 	buf := make([]byte, 32)
@@ -44,7 +63,6 @@ func BenchmarkGobLibMarshal(b *testing.B) {
 	}
 }
 
-
 func PutUint8(b []byte, v uint8) {
 	_ = b[0] // early bounds check to guarantee safety of writes below
 	b[0] = byte(v)
@@ -53,5 +71,3 @@ func PutUint8(b []byte, v uint8) {
 func main() {
 
 }
-
-
