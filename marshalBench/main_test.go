@@ -40,8 +40,8 @@ func BenchmarkGobLibMarshal(b *testing.B) {
 	buf := new(bytes.Buffer)
 	for n := 0; n < b.N; n++ {
 		gob.NewEncoder(buf).Encode(l)
+		buf.Reset()
 	}
-	buf.Reset()
 }
 
 
