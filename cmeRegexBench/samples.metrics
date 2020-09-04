@@ -1,0 +1,30 @@
+# HELP cos_stord_processing_duration_seconds_0 Duration of processing, dimensioned by process and stage
+# TYPE cos_stord_processing_duration_seconds_0 summary
+cos_stord_processing_duration_seconds_0_sum {process = "service-transition-enabled", stage = "gossiper"} 0.027721451
+# HELP cos_stord_processing_duration_seconds_1 Duration of processing, dimensioned by process and stage
+# TYPE cos_stord_processing_duration_seconds_1 summary
+cos_stord_processing_duration_seconds_1_sum {process = "service-transition-enabled", stage = "gossiper"} 0.027721451
+# HELP cos_stord_processing_duration_seconds_2 Duration of processing, dimensioned by process and stage
+# TYPE cos_stord_processing_duration_seconds_2 summary
+cos_stord_processing_duration_seconds_2_sum {process = "service-transition-enabled", stage = "gossiper"} 0.027721451
+# HELP cos_stord_processing_duration_seconds_3 Duration of processing, dimensioned by process and stage
+# TYPE cos_stord_processing_duration_seconds_3 summary
+cos_stord_processing_duration_seconds_3_sum {process = "service-transition-enabled", stage = "gossiper"} 0.027721451
+# HELP cos_stord_processing_duration_seconds_4 Duration of processing, dimensioned by process and stage
+# TYPE cos_stord_processing_duration_seconds_4 summary
+cos_stord_processing_duration_seconds_4_sum {process = "service-transition-enabled", stage = "gossiper"} 0.027721451
+# HELP cos_stord_processing_duration_seconds_5 Duration of processing, dimensioned by process and stage
+# TYPE cos_stord_processing_duration_seconds_5 summary
+cos_stord_processing_duration_seconds_5_sum {process = "service-transition-enabled", stage = "gossiper"} 0.027721451
+# HELP cos_stord_processing_duration_seconds_6 Duration of processing, dimensioned by process and stage
+# TYPE cos_stord_processing_duration_seconds_6 summary
+cos_stord_processing_duration_seconds_6_sum {process = "service-transition-enabled", stage = "gossiper"} 0.027721451
+# HELP cos_stord_processing_duration_seconds_7 Duration of processing, dimensioned by process and stage
+# TYPE cos_stord_processing_duration_seconds_7 summary
+cos_stord_processing_duration_seconds_7_sum {process = "service-transition-enabled", stage = "gossiper"} 0.027721451
+# HELP cos_stord_processing_duration_seconds_8 Duration of processing, dimensioned by process and stage
+# TYPE cos_stord_processing_duration_seconds_8 summary
+cos_stord_processing_duration_seconds_8_sum {process = "service-transition-enabled", stage = "gossiper"} 0.027721451
+# HELP cos_stord_processing_duration_seconds_9 Duration of processing, dimensioned by process and stage
+# TYPE cos_stord_processing_duration_seconds_9 summary
+cos_stord_processing_duration_seconds_9_sum {process = "service-transition-enabled", stage = "gossiper"} 0.027721451
